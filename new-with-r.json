@@ -18,7 +18,7 @@
             "SecretKey": "My_S3_Bucket_SECRET_KEY"
         }
     },
-    "InvocationIDFromDate": "%Y%m%d",
+    "InvocationIDFromDate": "%Y%m%d%H%M%S",
     "ActionList": {
         "add_operation": {
             "FunctionName": "add_rpc",

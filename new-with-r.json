@@ -7,7 +7,20 @@
             "ActionRepoName": "FaaSr-py-test-rpc",
             "Branch": "main",
             "Token": "My_GitHub_Account_TOKEN"
-        }
+        },
+        "My_SLURM_Server": {
+      "FaaSType": "SLURM",
+      "Endpoint": "http://slurm.faasr.io:6820",
+      "APIVersion": "v0.0.37",
+      "Partition": "faasr",
+      "Nodes": 1,
+      "Tasks": 1,
+      "CPUsPerTask": 2,
+      "UserName" : "ubuntu",
+      "Memory": 2048,
+      "TimeLimit": 30,
+      "WorkingDirectory": "/tmp"
+    }
     },
     "DataStores": {
         "My_S3_Bucket": {
@@ -36,7 +49,7 @@
         },
         "r_func": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_GitHub_Account",
+            "FaaSServer": "My_SLURM_Server",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"
@@ -97,5 +110,5 @@
     "FaaSrLog": "FaaSrLog",
     "LoggingDataStore": "My_S3_Bucket",
     "DefaultDataStore": "My_S3_Bucket",
-    "WorkflowName": "test-ts-workflow-5"
+    "WorkflowName": "test-ts-workflow-6"
 }

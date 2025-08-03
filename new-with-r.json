@@ -19,7 +19,8 @@
       "UserName" : "ubuntu",
       "Memory": 2048,
       "TimeLimit": 30,
-      "WorkingDirectory": "/tmp"
+      "WorkingDirectory": "/tmp",
+    "Token": "My_SLURM_Server_TOKEN"
     }
     },
     "DataStores": {

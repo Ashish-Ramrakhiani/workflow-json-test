@@ -109,5 +109,6 @@
     "FaaSrLog": "FaaSrLog",
     "LoggingDataStore": "My_S3_Bucket",
     "DefaultDataStore": "My_S3_Bucket",
+    "InvocationId":"",
     "WorkflowName": "test-ts-workflow-7"
 }

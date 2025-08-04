@@ -9,6 +9,7 @@
         }
     },
     "InvocationIDFromDate": "%Y%Q%d",
+    "InvocationID":"",
     "DataStores": {
         "My_S3_Bucket": {
             "Bucket": "faasr-test-0001",

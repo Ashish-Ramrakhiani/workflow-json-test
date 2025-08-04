@@ -110,5 +110,6 @@
     "LoggingDataStore": "My_S3_Bucket",
     "DefaultDataStore": "My_S3_Bucket",
     "InvocationID":"",
+    "InvocationIDFromDate": "%Y%m%d%H%M",
     "WorkflowName": "test-ts-workflow-7"
 }

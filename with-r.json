@@ -8,6 +8,7 @@
             "Token": "My_GitHub_Account_TOKEN"
         }
     },
+    "InvocationIDFromDate": "%Y%Q%d",
     "DataStores": {
         "My_S3_Bucket": {
             "Bucket": "faasr-test-0001",
@@ -95,7 +96,6 @@
         "test_list_folders": "nolcut/test-py"
     },
     "FunctionInvoke": "r_func",
-    "InvocationIDFromDate": "%Y%Q%d",
     "FaaSrLog": "FaaSrLog",
     "LoggingDataStore": "My_S3_Bucket",
     "DefaultDataStore": "My_S3_Bucket"

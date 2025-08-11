@@ -21,7 +21,15 @@
       "TimeLimit": 30,
       "WorkingDirectory": "/tmp",
     "Token": "My_SLURM_Server_TOKEN"
-    }
+    },
+        "My_GCP_Server": {
+            "FaaSType": "GoogleCloud",
+            "Namespace": "faasr-dev",
+            "Region": "us-central1",
+            "Endpoint": "https://run.googleapis.com/v2/projects/",
+            "ClientEmail": "faasr-workflow-runner@faasr-dev.iam.gserviceaccount.com",
+            "TokenUri": "https://oauth2.googleapis.com/token"
+        }
     },
     "DataStores": {
         "My_S3_Bucket": {
@@ -49,7 +57,7 @@
         },
         "r_func": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_SLURM_Server",
+            "FaaSServer": "My_GCP_Server",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"

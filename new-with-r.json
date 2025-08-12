@@ -89,7 +89,7 @@
         }
     },
     "ActionContainers": {
-        "r_func": "ghcr.io/ashish-ramrakhiani/gcp-rpc-r:dev",
+        "rfunc": "ramrakha/gcp-python-r:dev",
         "add_operation": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "log": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "folders": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev"

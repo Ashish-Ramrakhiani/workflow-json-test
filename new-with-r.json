@@ -57,7 +57,7 @@
                 "r_func(5)"
             ]
         },
-        "r_func": {
+        "rfunc": {
             "FunctionName": "r_log",
             "FaaSServer": "My_GCP_Server",
             "Type": "R",

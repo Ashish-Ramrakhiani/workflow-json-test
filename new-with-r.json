@@ -59,7 +59,7 @@
         },
         "rfunc": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_SLURM_Server",
+            "FaaSServer": "My_GCP_Server",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"

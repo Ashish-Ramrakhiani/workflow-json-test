@@ -89,7 +89,7 @@
         }
     },
     "ActionContainers": {
-        "rfunc": "ramrakha/slurm-r:slurmtest",
+        "rfunc": "ramrakha/slurm-r:slurmtest2",
         "add_operation": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "log": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "folders": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev"

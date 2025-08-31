@@ -43,7 +43,7 @@
         }
     },
     "ActionList": {
-        "add_operation": {
+        "add-operation": {
             "FunctionName": "add_rpc",
             "FaaSServer": "My_GitHub_Account",
             "Type": "Python",

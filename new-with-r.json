@@ -59,7 +59,7 @@
         },
         "rfunc": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_SLURM_Server",
+            "FaaSServer": "My_GCP_Server",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"
@@ -89,7 +89,7 @@
         }
     },
     "ActionContainers": {
-        "rfunc": "ramrakha/slurm-r:1.3",
+        "rfunc": "ramrakha/gcp-r:1.3",
         "add_operation": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "log": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev",
         "folders": "ghcr.io/ashish-ramrakhiani/ga-rpc-python:dev"

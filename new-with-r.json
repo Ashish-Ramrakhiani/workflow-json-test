@@ -22,7 +22,7 @@
       "WorkingDirectory": "/tmp",
     "Token": "My_SLURM_Server_TOKEN"
     },
-        "My_GCP_Server": {
+        "GCP": {
             "FaaSType": "GoogleCloud",
             "Namespace": "faasr-dev",
             "Region": "us-central1",
@@ -59,7 +59,7 @@
         },
         "rfunc": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_GCP_Server",
+            "FaaSServer": "GCP",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"
